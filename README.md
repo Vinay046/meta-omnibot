@@ -1,8 +1,8 @@
-# meta-rpi-gpu
+# meta-omnibot
 
 ## Overview
 
-`meta-rpi-gpu` is a Yocto meta-layer for the Omnibot robot from LTH. It provides ROS2 nodes to control and navigate the robot.
+`meta-omnibot` is a Yocto meta-layer for the Omnibot robot from LTH. It provides ROS2 nodes to control and navigate the robot.
 
 ## Layer Dependencies
 
