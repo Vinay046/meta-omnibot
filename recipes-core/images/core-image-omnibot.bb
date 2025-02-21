@@ -7,6 +7,7 @@ inherit ros_distro_${ROS_DISTRO}
 inherit ${ROS_DISTRO_TYPE}_image
 
 IMAGE_INSTALL:append = " \
+    ros-implicit-workspace \
     ros-core \
     linux-firmware \
     wireless-regdb \
