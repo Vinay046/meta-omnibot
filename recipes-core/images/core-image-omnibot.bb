@@ -22,3 +22,8 @@ IMAGE_INSTALL:append = " \
     evtest \
     robot-control \
 "
+IMAGE_INSTALL:append = " \
+    hello-kernel \
+    fanctrl \
+    rtw89-driver \
+    "
