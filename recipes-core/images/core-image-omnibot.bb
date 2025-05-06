@@ -10,7 +10,7 @@ IMAGE_INSTALL:append = " \
     ros-implicit-workspace \
     ros-core \
     linux-firmware \
-    wireless-regdb \
+    wireless-regdb-static \
     wpa-supplicant \
     iw \
     iproute2 \
@@ -25,5 +25,4 @@ IMAGE_INSTALL:append = " \
 IMAGE_INSTALL:append = " \
     hello-kernel \
     fanctrl \
-    rtw89-driver \
     "
